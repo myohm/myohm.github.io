@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: i3 | Esd]]></title>
+  <link href="http://myohm.github.io/blog/categories/i3/atom.xml" rel="self"/>
+  <link href="http://myohm.github.io/"/>
+  <updated>2014-03-08T00:27:37+01:00</updated>
+  <id>http://myohm.github.io/</id>
+  <author>
+    <name><![CDATA[Esd]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Installer i3]]></title>
+    <link href="http://myohm.github.io/blog/2014/03/07/installer-i3/"/>
+    <updated>2014-03-07T23:34:29+01:00</updated>
+    <id>http://myohm.github.io/blog/2014/03/07/installer-i3</id>
+    <content type="html"><![CDATA[<h1>Installation basique de i3</h1>
+
+<p>Ceci est unedksfskfjhskfjkqjsdhfkqjdskjqsdkfjhfqskd<br/>
+qsdfqsdfqsdfqfkjhkjhkj<br/>
+qsdfqjsdfkqsjdfkqjsdfkqjsdkfjqsdkfjhqksdjfhkqsdfq
+qsdfqsdfqsdfqsdfqsdfqfdqdfqdfqsdf
+qsdfqfds</p>
+
+<h2>Titre A</h2>
+
+<h2>Titre B</h2>
+
+<hr />
+
+<p>Et voilà un autre paragraphe</p>
+]]></content>
+  </entry>
+  
+</feed>

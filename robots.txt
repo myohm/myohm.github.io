@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://myohm.github.io/sitemap.xml 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: linux | Esd]]></title>
+  <link href="http://myohm.github.io/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://myohm.github.io/"/>
+  <updated>2014-03-08T00:27:37+01:00</updated>
+  <id>http://myohm.github.io/</id>
+  <author>
+    <name><![CDATA[Esd]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Test2]]></title>
+    <link href="http://myohm.github.io/blog/2014/03/04/test2/"/>
+    <updated>2014-03-04T20:40:05+01:00</updated>
+    <id>http://myohm.github.io/blog/2014/03/04/test2</id>
+    <content type="html"><![CDATA[<h1>Installer Octopress sur debian 7</h1>
+
+<h2>Prérequis</h2>
+
+<p>La première chose à faire est d'installer les <em>paquets</em> suivants</p>
+
+<pre><code>ceci est du code
+</code></pre>
+
+<h2>Installation</h2>
+
+<p>Voilà un lien vers <a href="http://www.google.fr">google</a></p>
+
+<p>Une méga liste numérotée</p>
+
+<ol>
+<li>youpi</li>
+<li>tralala</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
