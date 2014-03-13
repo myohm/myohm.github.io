@@ -1,13 +1,15 @@
 
 <!DOCTYPE HTML>
-<html lang="en-GB">
+<html>
 <head>
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta charset="utf-8">
 	<title><3  | Esd</title>
 
-	<meta name="author" content="Esd">
+<meta name="author" content="Esd"> 
 
-<meta name="description" content=" TRALALA "> <meta name="keywords" content="">
+<meta name="description" content=" TRALALA Mar 8th, 2014 "> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -17,32 +19,77 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
 	
-
 </head>
-
 
 
 <body>
 	<header id="header" class="inner"><h1><a href="/">Esd</a></h1>
-<span class="tagline"><3</span>
-<!-- <nav id="main-nav"><ul>
+<h4><3</h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
 	<li><a href="/about">About</a></li>
-	<li><a href="/archives">Archives</a></li>
-	<li><a href="/contact">Contact</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
 </ul>
-</nav> -->
-<!-- <nav id="mobile-nav"> -->
-<!-- 	<div class="alignleft menu"> -->
-<!-- 		<a class="button">Menu</a> -->
-<!-- 		<div class="container"><ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
 	<li><a href="/about">About</a></li>
-	<li><a href="/archives">Archives</a></li>
-	<li><a href="/contact">Contact</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
 </ul>
-</div> -->
-<!-- 	</div> -->
-<!-- </nav> -->
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:myohm.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
 
 
 </header>
@@ -51,14 +98,22 @@
 
 
     <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/blog/2014/03/08/hello/">
-			
-				Hello</a>
-		</h2>
-		<div class="meta date">
+	<h2 class="title">
+		
+		<a href="/blog/2014/03/08/hello/">
+		
+			Hello</a>
+	</h2>
+	<div class="entry-content">
+		<h1>TRALALA</h1>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
 
 
 
@@ -71,39 +126,20 @@
 
 
 <time datetime="2014-03-08T00:07:51+01:00" pubdate data-updated="true">Mar 8<span>th</span>, 2014</time></div>
-	</header>
-	<div class="entry-content">
-		<h1>TRALALA</h1>
+	
 
-		
-		
-	</div>
 
-</article>
+	
+</div></article>
 
 
     <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/blog/2014/03/07/installer-i3/">
-			
-				Installer I3</a>
-		</h2>
-		<div class="meta date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-07T23:34:29+01:00" pubdate data-updated="true">Mar 7<span>th</span>, 2014</time></div>
-	</header>
+	<h2 class="title">
+		
+		<a href="/blog/2014/03/07/installer-i3/">
+		
+			Installer I3</a>
+	</h2>
 	<div class="entry-content">
 		<h1>Installation basique de i3</h1>
 
@@ -125,18 +161,9 @@ qsdfqfds</p>
 		
 	</div>
 
-</article>
 
-
-    <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/blog/2014/03/04/test2/">
-			
-				Test2</a>
-		</h2>
-		<div class="meta date">
+<div class="meta">
+	<div class="date">
 
 
 
@@ -148,8 +175,27 @@ qsdfqfds</p>
   
 
 
-<time datetime="2014-03-04T20:40:05+01:00" pubdate data-updated="true">Mar 4<span>th</span>, 2014</time></div>
-	</header>
+<time datetime="2014-03-07T23:34:29+01:00" pubdate data-updated="true">Mar 7<span>th</span>, 2014</time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/i3/'>i3</a>
+
+</div>
+
+
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/03/04/test2/">
+		
+			Test2</a>
+	</h2>
 	<div class="entry-content">
 		<h1>Installer Octopress sur debian 7</h1>
 
@@ -176,18 +222,53 @@ qsdfqfds</p>
 		
 	</div>
 
-</article>
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-04T20:40:05+01:00" pubdate data-updated="true">Mar 4<span>th</span>, 2014</time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/linux/'>linux</a>
+
+</div>
+
+
+	
+</div></article>
 
 
     <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/blog/2014/03/04/test/">
-			
-				Test</a>
-		</h2>
-		<div class="meta date">
+	<h2 class="title">
+		
+		<a href="/blog/2014/03/04/test/">
+		
+			Test</a>
+	</h2>
+	<div class="entry-content">
+		<h1>Ceci est mon titre</h1>
+
+<p>Voilà mon premier paragraphe!!</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
 
 
 
@@ -200,34 +281,31 @@ qsdfqfds</p>
 
 
 <time datetime="2014-03-04T01:42:18+01:00" pubdate data-updated="true">Mar 4<span>th</span>, 2014</time></div>
-	</header>
-	<div class="entry-content">
-		<h1>Ceci est mon titre</h1>
+	
 
-<p>Voilà mon premier paragraphe!!</p>
 
-		
-		
-	</div>
-
-</article>
+	
+</div></article>
 
 <nav id="pagenavi">
     
     
-</nav>
-</div>
-	<footer id="footer" class="inner"><br>
-<br>
-<br>
-<br>
-&copy; 2014
+    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
+</nav></div>
+	<footer id="footer" class="inner">Copyright &copy; 2014
 
     Esd
 
+<br>
+Powered by Octopress.
 </footer>
 	<script src="/javascripts/slash.js"></script>
-<script src="/javascripts/hyphenator.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
 
 <script type="text/javascript">
@@ -238,7 +316,7 @@ qsdfqfds</p>
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
@@ -247,12 +325,5 @@ qsdfqfds</p>
 
 
 
-
 </body>
-<script>
-  $(document).ready(function() {
-  // Make images center
-  $('p:has(img)').css('text-align', 'center');
-  });
-</script>
 </html>
